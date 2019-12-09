@@ -24,3 +24,8 @@ At this screen each object is created programmatically, via code. I use mask to 
 
 ## Board mechanic.
 To determinate win situation on board, I've create algorithm which return all sequance on current board. Thats means alghoritm return array of 4-elements array which are sequence of coin on board in all possible diraction: horizontal, vertical, and diagonals in 2 directions. Algorithm skip empty slots on board to optimize searching of wining sequence.
+This algorithm is also used to determinate next cpu moves, because goal of cpu player is win he always try to do best moves, 
+exception is few first moves because alghoritm cannot determinate which is best move.
+
+## Over screen
+This screen is showed after game is compleat. It's show result of game: who wins, and allow to restart game in current mode ore go back to Home Screen to re-pick game mode.
