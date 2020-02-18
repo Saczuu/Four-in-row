@@ -1,10 +1,6 @@
 # Four-in-row
 
-Swift implementation of classic game 'Four in row' using UIKit and SpriteKit
-
-Game include 2 modes: single player - versus cpu, and multiplayer - player vs player.
-
-This app uses SpriteKit which I use to every aspect of the game, from menus through game screen and over/result screen.
+Implementation of classic board game four in a row as iOS and iPadOS mobile game with 2 game mode: single player where you play vs AI, and multiplayer where 2 players play against each other. The whole application is developed in SpriteKie which I use for every aspect of the game, from menus through board mechanic. Board mechanic is based on a matrix that represents the current state of the board, and after each move, I search for a specific pattern in horizontal, vertical, and diagonal lines on board. This mechanic is also used to determine the next move of a CPU player, which is prioritized to defend from winning the move of the opponent, next if there is a possibility to win a match.
 
 App can be splited into 4 section:
 - Home screen - menu with game mode selection
